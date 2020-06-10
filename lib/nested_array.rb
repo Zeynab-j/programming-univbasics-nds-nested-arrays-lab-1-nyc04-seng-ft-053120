@@ -1,4 +1,6 @@
 # Examples inspired by U. S. National Organic Standards
+CONVENTIONAL_PRODUCE = ["Grapefruit", "Pineapple",  "Oranges", "Watermelon", "Eggplant"]
+ORGANIC_PRODUCE = [ "Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
 
 def assembled_matrix
   # Build an array that contains both of the above arrays
@@ -6,8 +8,7 @@ def assembled_matrix
   # Organic standards require that organic products be stored ABOVE conventional, not the other way around
   # Make sure conventional produce is first, on the 'zeroth' / 'bottom' shelf
 
- CONVENTIONAL_PRODUCE= ["Grapefruit", "Pineapple",  "Oranges", "Watermelon", "Eggplant"]
- ORGANIC_PRODUCE = [ "Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+assembled_matrix = [ORGANIC_PRODUCE ,CONVENTIONAL_PRODUCE]
 
 end
 
